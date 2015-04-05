@@ -1,7 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hello! My name is Nicholas Qiao. I am an aspiring programmer, designer, and developer. This is my personal site. Stop by for a visit!">
+    <meta name="author" content="Nicholas Qiao">
+    <!-- <link rel="shortcut icon" href="dist/images/favicon.ico"> -->
+
+    <link rel="icon" type="image/png" href="dist/images/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="dist/images/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="dist/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="dist/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="dist/images/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+    <title>Nicholas Qiao</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/custom.css" rel="stylesheet">
+    <link href="dist/css/carousel.css" rel="stylesheet">
+    <link href="dist/css/animate.css" rel="stylesheet">
+    <link href="dist/css/single-page.css" rel="stylesheet" type="text/css" >
+    <link href="dist/css/animation.css" rel="stylesheet" type="text/css" >
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class="pt-wrapper">    
+  <div class="pt-page pt-page-1">
+    <div id="positioning">
+      
+      <div id="intro-top">
+        <img src="dist/images/topintroHD.png" alt="some_text" class=""> <!--animated fadeInDown-->
+      </div>
+       
+      <div class="rotateIn">
+        <hr class="horiRow" id="hrbar"></hr>
+      </div>
+
+      <div id="intro-bottom">
+        <img src="dist/images/bottomintro.png" alt="some_text" class=""><!--animated fadeInUp-->
+      </div>  
+
+      <div id="enter-icon">
+        <img src="dist/images/testicon.png" id="icon" class="pt-trigger  " data-animation="22" data-goto="-1"><!--animated fadeIn-->
+      </div>
+
+    </div> <!-- positioning -->
+  </div> <!-- pt-page pt-page-1 -->
+
+    <div class="pt-page pt-page-2">
+      <div id="main-content">
+        <div class="container">
+          <div class="row" id="main-content">
+            <div class="col-md-3" id="left-bar">
+              <div id="profile-picture">
+                <div id="pic-background">
+                  <img src="dist/images/scaledcropped.png" id="propic">
+                </div>
+              </div>
+
+              <nav>
+                <ul id="left-nav">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active">
+                    <a href="#">Profile</a> 
+                  </li>
+
+                  <li data-target="#myCarousel" data-slide-to="1">
+                    <a href="#">Projects</a>
+                  </li>
+
+                  <li data-target="#myCarousel" data-slide-to="2">
+                    <a href="#">Work Experience</a>
+                  </li>
+
+                  <li data-target="#myCarousel" data-slide-to="3">
+                    <a href="#">Online Presence</a>
+                  </li>
+
+                  <li data-target="#myCarousel" data-slide-to="4">
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div> <!-- col-md-3 -->
+
+          <div class="col-md-9" id="right-main">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <h2 class="noColor">Hello there! My name is <span class="make-orange">Nicholas Qiao</span>. I am currently a <span class="make-orange">Senior</span> at <span class="make-orange">Boston University</span> studying <span class="make-orange">Computer Science</span>.</h2>
+
+                  <hr class="horiRow grey">
+
+                  <h3>I have a passion for all things programming and development. I'm constantly jotting down ideas for new projects. I have an insatiable drive to explore and learn new things, and I'm always ready to share what I know with those around me. Clean code and clean design are what I strive to achieve.</h3>
+                
+                  <hr class="horiRow grey">
+
+                  <h2><span class="make-orange">Other Interests</span></h2> 
+
+                  <h3>Besides development, my interests are far and wide. I have a deep-seated interest in <span class="make-orange">internet security</span>. I grew up envisioning myself as an elite hacker with 20 monitors surrounding me as my fingers danced across the keyboard like a pianist would play the piano. Although I might not become an elite hacker, I'll settle for the 20 monitors.<br><br>
+                    
+                  As with any geek at heart, I enjoy a healthy dose of video games. But more than playing, <span class="make-orange">making games</span> is where the real fun lies. I love the ability to express my creativity and ideas through this type outlet.<br><br> <!-- medium? -->
+
+                  Just recently, I've returned to the ancient game of <span class="make-orange"><a href="http://en.wikipedia.org/wiki/Go_boardgame" id="baduk" target="_blank">Go</a></span>. I find it's simplistic rules, yet almost infinite complexity both intriguing and incredibly fun to play and learn. I love the aspect of self-improvement and self-growth which the game embodies.</h3>
+                </div>
+
+                <div class="item">
+                  <h1><span class="make-orange">My Projects</span></h1>
+                    <hr class="horiRow grey" id="project-hr">
+                      <a href="https://github.com/nicholasqiao" class="no-deco" target="_blank"><i class="fa fa-github fa-5x github-color" id="github-icon"></i></a>
+                   
+                    
+                    <h3 class="vert-center"> Most of my personal projects are listed on my github. I'm always on the lookout for something new to test and learn. Drop by and check my profile out! 
+                    </h3>
+                    <br>
+                    <h3><a href="http://nicholasqiao.com/projects/hnfoods/" target="_blank">H&N Foods</a> <div class="align-right">Fall Semester 2014</div><br>
+                    <div class="block-indent">
+                    Redesigned H&N Food's website as a potential choice for their website overhaul.</div></h3>
+
+
+                    <br>
+
+                    <h1><span class="make-orange">Contributions</span></h1>
+                    <hr class="horiRow grey" id="contributions-hr">
+                    <h3><a href="http://request-now.com" target="_blank">RequestNow, Inc.</a> <div class="align-right">Fall Semester 2013</div><br>
+                        <div class="block-indent">
+                    Software developer for RequestNow, Inc. A song request platform targeted at DJs and event makers that help connect the DJ with the guests, allowing the guests to easily send song requests through SMS to the DJ.</div></h3>
+
+                </div>
+                <div class="item">
+                    <h1><span class="make-orange">Work Experience</span></h1>
+                    <hr class="horiRow grey" id="workexp-hr">
+                    <h3><a href="http://ibm.com" target="_blank">International Business Machines Corporation (IBM)</a> <div class="align-right">Summer 2014</div><br>
+                    <div class="block-indent">
+                        Joined the Rational Software development team. Performed extensive software testing for production level ClearCase software. Also contributed to large scale Junit debugging and defect logging.
+                    </div></h3>
+
+                    <h3><a href="http://ibm.com" target="_blank">International Business Machines Corporation (IBM)</a> <div class="align-right">Summer 2013</div><br>
+                    <div class="block-indent">
+                        Joined the Rational Software development team. Reworked and created new logging facilities/functionalities for two different ClearCase related projects.
+                    </div></h3>
+
+                    <h3><a href="http://dyn.com/" target="_blank">Dynamic Network Services, Inc. (Dyn)</a> <div class="align-right">Summer 2012</div><br>
+                        <div class="block-indent">
+                    Joined the web development team at Dyn. Completely reworked Dyn’s user account website to be mobile compatible.</div></h3>
+
+                    <p id="bottom-note" class="make-orange">My full work experience can be found on my resume! (See Contact page)</p>
+                </div>
+                <div class="item">
+                 
+                    <h1><span class="make-orange">Online Presence</span></h1>
+                    <hr class="horiRow grey" id="online-hr">
+                    <h3>Whether it be browsing Reddit, reading random blogs, or even writing on my own, I'm always eager to sign up for the newest coding school or programming community. Below are some of the places where you can find me!</h3>
+                    
+                        
+                    <hr class="horiRow grey" id="online-hr">
+                    <div class="row text-center">
+                    <div class="col-md-5">
+                    <a href="http://thefinalbit.wordpress.com/" class="no-deco" target="_blank"><img src="dist/images/wordpress-slim-white.png" id="wordpress-icon"></a>
+                    </div>
+                    <div class="col-md-7">
+                    <a href="http://www.codecademy.com/" class="no-deco" target="_blank"><img src="dist/images/codecademy_scaled.png" id="codecademy-icon"></a>
+                    </div>
+                    
+                    <div class="col-md-5">
+                    <a href="http://codecombat.com/" class="no-deco" target="_blank"><img src="dist/images/codecombat.png" id="codecombat-icon"></a>
+                    </div>
+                    <div class="col-md-7">
+                    <a href="http://www.dreamincode.net/" class="no-deco" target="_blank"><img src="dist/images/dreamincode.png" id="dreamincode-icon"></a>
+                    </div>
+                    
+                    <div class="col-md-5">
+                    <a href="http://www.codeavengers.com/" class="no-deco" target="_blank"><img src="dist/images/codeavengers.png" id="codeavengers-icon"></a>
+                    </div>
+                    <div class="col-md-7">
+                    <a href="http://www.reddit.com/" class="no-deco" target="_blank"><img src="dist/images/reddit-slim.png" id="reddit-icon"></a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <h1><span class="make-orange">Contact</span></h1>
+                    <hr class="horiRow grey" id="contact-hr">
+                    <h3>
+                    <span class="make-blue">System</span><span class="make-pink">.</span>out<span class="make-pink">.</span>println(<span class="make-yellow">"Contact Information!"</span>); <br><br>
+                    <span class="make-pink">if</span> (interested_in_my_work <span class="make-pink">||</span> just want to exchange ideas) { <br>
+                    <span class="block-indent">email(<a href="mailto:nqiao@bu.edu" target="_top">NicholasQiao</a>); </span><br>
+                    } <span class="make-pink">else if</span> (looking_for_resume) { <br>
+                        <span class="block-indent">email(<a href="mailto:nqiao@bu.edu" target="_top">NicholasQiao</a>); <span class="make-comment">//I may be a bit paranoid, but I don't want crawlers to get it!</span></span><br>
+                    } <span class="make-pink">else</span> { <br>
+                        <span class="block-indent"><span class="make-blue">System</span><span class="make-pink">.</span>out<span class="make-pink">.</span>println(<span class="make-yellow">"Thank you so much for the visit!"</span>); </span><br>
+                    }
+                    </h3>
+                  
+                </div>
+              </div>
+            </div><!-- /.carousel -->
+ 
+      </div> <!-- row -->
+         <div class="footer">
+    <h4> &copy 2014 Nicholas Qiao. All rights reserved. <br> Design by <a href="http://www.nicholasqiao.com" target="_blank">Nicholas Qiao</a></h4>      
+    </div>
+    </div>
+</div>
+  </div> <!-- pt-page pt-page-2 -->
+</div> <!-- pt-wrapper -->
+
+
+
+<div class="pt-message">
+    <p>Your browser does not support CSS animations.</p>
+</div>
+
+<script src="dist/js/jquery-1.9.1.min.js"></script>
+<script src="dist/js/transition.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/docs.min.js"></script>
 </body>
 </html>

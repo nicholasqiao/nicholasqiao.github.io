@@ -1,0 +1,330 @@
+body,html {
+  background: url(../images/escheresque_ste.png);
+  height: 100%;
+}
+
+h1, h2, h3, h5, p {
+    font-family: "Dekar";
+    color: #e0e0e0;
+}
+
+p {
+    font-size: 30px;
+}
+
+.make-orange {
+    color: rgb(255,102,0);
+}
+
+.make-blue {
+    color: rgb(102,217,239);
+}
+
+.make-pink {
+    color: rgb(249,38,114);
+}
+
+.make-yellow {
+    color: rgb(230,219,116);
+}   
+
+.make-comment {
+    color: rgb(117,113,94);
+}
+
+.grey {
+    color: #777;
+    border-top: 1px solid #777;
+}
+
+#wrapper {
+    height: 300px;
+    width: 700px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    position: absolute;
+}
+
+#name {
+	font-size: 40px;
+	color: rgb(255,102,0);
+	font-family: "KaushanScript-Regular";
+}
+
+#intro {
+    font-family: "BenchNine-Regular";
+    color: #E6E6E6;
+    font-size: 50px;
+    text-align: center;
+    width: auto;
+   
+}
+
+#intro-sub {
+    font-family: "BenchNine-Regular";
+    color: rgb(255,102,0);
+    font-size: 50px;
+}
+
+#intro-bottom {
+    font-family: "BenchNine-Regular";
+    color: #E6E6E6;
+    font-size: 50px;
+    text-align: center;
+    width: auto;
+}
+
+#enter-icon {
+    margin-top: 90px;
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horiRow {
+    width: 30%;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+#left-bar {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.1); 
+    text-decoration: none;
+    height: 650px;
+}
+
+#right-main {
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#main-content {
+    height: 650px;
+    width: 1140px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    position: absolute;
+}
+
+#profile-picture {
+    height: 285px;
+    padding-top: 10px;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#propic {
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    /* border: 3px solid #FF6600; */
+}
+
+#pic-background {
+    margin: auto;
+    width: 270px;
+    height: 270px;
+   /* background-color: #FF6600;*/
+    background-color: rgba(253, 138, 22, 1.0);
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
+
+#left-nav {
+    height: 365px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.vert-col {
+    float: left;
+}
+
+.github-color {
+    color: rgb(65,131,196);
+}
+
+#baduk {
+    text-decoration: underline;
+    color: #2A5DB0;
+}
+
+#baduk:hover {
+    color: rgba(253, 138, 22, 1.0);
+}
+
+#project-hr {
+    margin-left: 0px;
+    width: 20%;
+}
+
+#contributions-hr {
+    margin-left: 0px;
+    width: 22%;
+}
+
+#workexp-hr {
+    margin-left: 0px;
+    width: 29%;
+}
+
+#online-hr {
+    margin-left: 0px;
+    width: 27%;
+}
+
+#contact-hr {
+    margin-left: 0px;
+    width: 14%;
+}
+
+.footer {
+    font-family: "Dekar";
+    padding-top: 655px;
+    text-align: center;
+    color: #777;
+}
+
+#bottom-note {
+    /*padding-top: 180px;*/
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#github-icon {
+    float: left;
+    padding-right: 10px;
+}
+
+.vert-center {
+    padding-top:7px;
+}
+
+.align-right {
+    display: inline-block;
+    right: 0px;
+    position: absolute;
+}
+
+.block-indent {
+    margin-left: 1em;
+    margin-top: 5px;
+}
+
+#wordpress-icon {
+    width: 157px;
+}
+
+#codecademy-icon {
+    width: 380px;
+}
+
+#codecombat-icon {
+    width: 172px;
+}
+
+#dreamincode-icon {
+    width: 264px;
+}
+
+#codeavengers-icon {
+    width: 231px;
+}
+
+#reddit-icon {
+    width: 85px;
+}
+
+.col-md-7 {
+    height: 150px;
+}
+
+nav > ul > li {
+    height: 20%;
+    list-style-type: none;
+    text-align: center;
+    line-height: 73px;
+    border-bottom: 1px solid;
+}
+
+nav > ul > li > a {
+    font-size: 30px;
+    font-family: "Dekar";
+    color: rgb(255,102,0);
+    display: block;
+    text-decoration: none;
+    outline: 0;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: none;
+    color: rgb(255,102,0);
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: rgb(255,102,0);
+    outline: 0;
+}
+
+nav > ul {
+    padding: 0px;
+}
+
+nav li:nth-child(1) {
+    background-color: rgba(80, 80, 80, 0.3);
+}
+nav li:nth-child(2) {
+    background-color: rgba(80, 80, 80, 0.3);
+}
+nav li:nth-child(3) {
+    background-color: rgba(80, 80, 80, 0.3);
+}
+nav li:nth-child(4) {
+    background-color: rgba(80, 80, 80, 0.3);
+}
+nav li:nth-child(5) {
+    background-color: rgba(80, 80, 80, 0.3);
+    border-bottom: none;
+}
+
+@font-face {
+    font-family:"BubblegumSans-Regular";
+    src:url("../fonts/BubblegumSans-Regular.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"KaushanScript-Regular";
+    src:url("../fonts/KaushanScript-Regular.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"BenchNine-Regular";
+    src:url("../fonts/BenchNine-Regular.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"Dekar";
+    src:url("../fonts/Dekar.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
