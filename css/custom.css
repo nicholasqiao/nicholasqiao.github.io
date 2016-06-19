@@ -12,3 +12,8 @@ body {
 p {
 	font-size: 18px;
 }
+
+@font-face {
+	font-family: "MS PGothic";
+	src: url(../fonts/msgothic.ttc);
+}
