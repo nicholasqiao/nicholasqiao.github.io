@@ -1,0 +1,41 @@
+body {
+	background: url(../images/escheresque_ste.png);
+	color: white;
+	font-family: "asdf";
+}
+
+h1, h2 {
+	color: rgb(255,102,0);
+}
+
+p {
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: "asdf";
+	src: url(../fonts/Geometria-Light-webfont.ttf);
+}
+
+a {
+	color: rgb(255,102,0);
+	text-decoration: none;
+}
+
+#links {
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#links > a {
+	margin: 50px 50px;
+}
+
+#footer {
+	padding-top: 200px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 15px;
+}
