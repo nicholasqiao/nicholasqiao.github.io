@@ -4,8 +4,9 @@ body {
 	font-family: "Geometria";
 }
 
-h1, h2 {
+h2 {
 	color: rgb(255,102,0);
+	padding-bottom: 50px;
 }
 
 p {
@@ -39,8 +40,6 @@ a {
 #footer {
 	padding-top: 200px;
 	padding-bottom: 20px;
-	left: 0;
-	right: 0;
 	text-align: center;
 	font-size: 15px;
 }
