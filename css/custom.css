@@ -1,7 +1,7 @@
 body {
 	background: url(../images/escheresque_ste.png);
 	color: white;
-	font-family: "MS PGothic"
+	font-family: "Geometria";
 }
 
 #title {
@@ -14,6 +14,6 @@ p {
 }
 
 @font-face {
-	font-family: "MS PGothic";
-	src: url(../fonts/msgothic.ttc);
+	font-family: "Geometria";
+	src: url(../fonts/Geometria-Light-webfont.ttf);
 }
